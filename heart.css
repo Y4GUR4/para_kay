@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #dd8fba;
+}
+
+.heart-button {
+  background-color: transparent;
+  border: none;
+  font-size: 50px;
+  color: #e63946;
+  cursor: pointer;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.heart-button:hover {
+  transform: scale(1.2);
+  color: #ff6f61;
+}
